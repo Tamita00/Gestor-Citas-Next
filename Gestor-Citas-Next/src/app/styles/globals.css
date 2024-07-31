@@ -1,0 +1,11 @@
+/* styles/globals.css */
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: rgb(233, 161, 203);
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

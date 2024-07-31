@@ -1,0 +1,54 @@
+/* Estilo de la navbar */
+.navbar {
+    width: 100%;
+    height: 4em;
+    background-color: #a1ca9c;
+    display: flex;
+    justify-content: space-between; /* Espacio entre los ítems y la imagen */
+    align-items: center; /* Centra los ítems verticalmente */
+    padding: 0 1rem; /* Añade un poco de padding a los lados */
+}
+
+/* Estilo de la lista de navegación */
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Centra los ítems verticalmente */
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo de cada ítem de la lista */
+.listItem {
+    margin: 0 15px; /* Ajusta los márgenes para separación horizontal */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Estilo de los enlaces */
+.listItem a {
+    color: #ffffff; /* Texto blanco por defecto */
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px; /* Bordes redondeados */
+    box-shadow: none; /* Elimina la sombra */
+    background-color: transparent; /* Elimina el fondo */
+    transition: color 0.3s ease, transform 0.3s ease; /* Transición para color y transformación al hover */
+    text-shadow: 1px 2px 9px rgba(0,0,0,0.48);
+}
+
+/* Estilo al hacer hover sobre los enlaces */
+.listItem a:hover {
+    color: #cceccc; /* Cambia el color del texto al hacer hover */
+    background-color: transparent; /* Asegura que el fondo sea transparente */
+    box-shadow: none; /* Asegura que no haya sombra al hacer hover */
+    transform: translateY(-2px); /* Eleva el ítem al hacer hover */
+}
+
+/* Estilo de la imagen en la navbar */
+.navbar img {
+    margin-right: 2em;
+    height: 4em; /* Ajusta el tamaño de la imagen según sea necesario */
+}
